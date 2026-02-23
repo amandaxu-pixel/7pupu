@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>2026 中科大泰好玩</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; background-color: #f8f9fa; -webkit-tap-highlight-color: transparent; }
+        .card { background: white; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 16px; border: 1px solid #eee; }
+        .nav-btn { background: #007AFF; color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 4px; }
+        .tag { font-size: 0.75rem; padding: 2px 8px; border-radius: 4px; font-weight: bold; }
+        .tag-food { background: #FFF0F0; color: #E53E3E; }
+        .tag-spot { background: #F0F5FF; color: #3182CE; }
+        .sticky-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,0.9); backdrop-filter: blur(10px); border-bottom: 1px solid #eee; }
+    </style>
+</head>
+<body class="pb-20">
+
+    <header class="sticky-header p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-gray-800">🇹🇭 2026 中科大泰好玩 [cite: 1]</h1>
+        <div class="text-xs text-gray-500 text-right">3/4 - 3/8 [cite: 2]</div>
+    </header>
+
+    <main class="p-4">
+        <div class="card p-4 bg-slate-800 text-white">
+            <h2 class="font-bold mb-2"><i class="fas fa-plane-departure mr-2"></i>航班 & 住宿概覽</h2>
+            <div class="grid grid-cols-2 gap-4 text-sm opacity-90">
+                <div>去程: BR211 (08:25) [cite: 3, 4]</div>
+                <div>回程: BR068 (17:15) [cite: 5, 6]</div>
+                <div class="col-span-2 border-t border-slate-600 pt-2 mt-1">
+                    🏨 Day 1: Grande Centre Point Pattaya [cite: 13, 15]<br>
+                    🏨 Day 2-5: Somerset Rama 9 [cite: 24, 25]
+                </div>
+            </div>
+        </div>
+
+        <section class="mb-8">
+            <h3 class="text-lg font-bold mb-3 flex items-center">
+                <span class="bg-black text-white px-2 py-1 rounded mr-2 text-sm">DAY 1</span> 3/4 (三) [cite: 7]
+            </h3>
+            
+            <div class="card p-4">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="tag tag-food">中餐</span>
+                    <a href="https://www.google.com/maps/search/?api=1&query=The+Oxygen+Beachfront+Oasis" class="nav-btn"><i class="fas fa-location-arrow"></i> 導航</a>
+                </div>
+                <div class="font-bold text-lg">The Oxygen Beachfront Oasis [cite: 11]</div>
+                <div class="text-gray-600 text-sm mt-1">抵達機場(11:30)後前往 [cite: 9]。</div>
+            </div>
+
+            <div class="card p-4 border-l-4 border-blue-500">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="tag tag-spot">住宿</span>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Grande+Centre+Point+Pattaya" class="nav-btn"><i class="fas fa-location-arrow"></i> 導航</a>
+                </div>
+                <div class="font-bold text-lg">Grande Centre Point Pattaya [cite: 15]</div>
+                <div class="text-gray-600 text-sm mt-1">15:00 入住，車程約 1.5 小時 [cite: 13, 14]。</div>
+            </div>
+
+            <div class="card p-4">
+                <div class="flex justify-between items-start mb-2">
+                    <span class="tag tag-food font-bold">必吃晚餐</span>
+                    <a href="https://www.google.com/maps/search/?api=1&query=The+Sky+Gallery+Pattaya" class="nav-btn"><i class="fas fa-location-arrow"></i> 導航</a>
+                </div>
+                <div class="font-bold text-lg">The Sky Gallery 夕陽餐廳 [cite: 19]</div>
+                <div class="text-red-500 text-sm font-bold mt-1">預約: @theskygallery [cite: 18]</div>
+                <div class="text-gray-600 text-sm mt-1">18:00 賞美景 [cite: 16, 17]。</div>
+            </div>
+        </section>
+
+        <div class="card p-4 bg-yellow-50 border-yellow-200">
+            <h2 class="font-bold text-yellow-800 mb-2"><i class="fas fa-exclamation-circle mr-2"></i>導遊碎碎念</h2>
+            <ul class="text-sm space-y-2 text-yellow-900">
+                <li>📌 <b>退稅注意</b>：Day 5 機場 Check-in 前要先去海關蓋章 [cite: 101]。</li>
+                <li>🍜 <b>嵩越路</b>：必吃 <b>厚切牛肉麵</b> 與 <b>乳頭麵包</b> [cite: 44, 45]。</li>
+                <li>🔥 <b>喬德夜市</b>：認明最大攤的 <b>火山排骨</b> [cite: 62]。</li>
+            </ul>
+        </div>
+    </main>
+
+    <nav class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 p-2 flex justify-around text-xs text-gray-500 shadow-lg">
+        <div class="text-blue-600 font-bold flex flex-col items-center"><i class="fas fa-calendar-alt text-lg"></i><span>行程</span></div>
+        <div class="flex flex-col items-center"><i class="fas fa-utensils text-lg"></i><span>美食</span></div>
+        <div class="flex flex-col items-center"><i class="fas fa-wallet text-lg"></i><span>記帳</span></div>
+        <div class="flex flex-col items-center"><i class="fas fa-phone-alt text-lg"></i><span>緊急</span></div>
+    </nav>
+
+</body>
+</html>
